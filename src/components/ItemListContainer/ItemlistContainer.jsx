@@ -37,4 +37,3 @@ const ItemListContainer = ({ greeting }) => {
 };
 
 export default ItemListContainer;
-
