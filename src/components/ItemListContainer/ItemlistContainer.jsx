@@ -8,8 +8,6 @@ import styles from "./ItemListContainer.module.css"
 const ItemListContainer = ({greeting}) => {
 
   const [productos, setProductos] = useState([])
-const {id} =useParams()
-
   useEffect(() => {
       const fetchData = async () => {
         
@@ -25,7 +23,7 @@ const {id} =useParams()
 
       fetchData()
 
-    }, [id])
+    }, [])
 
 
   return (

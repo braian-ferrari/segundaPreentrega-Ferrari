@@ -42,11 +42,11 @@ function Navbar() {
                                 Marcas
                             </Link>
                             <ul className="dropdown-menu">
-                                <li><Link to='/Marcas/Adidas' className="dropdown-item">Adidas</Link></li>
-                                <li><Link to='/Marcas/Nike' className="dropdown-item">Nike</Link></li>
-                                <li><Link to='/Marcas/Jordan' className="dropdown-item">Jordan</Link></li>
-                                <li><Link to='/Marcas/Underarmour' className="dropdown-item">Under Armour</Link></li>
-                                <li><Link to='/Marcas/Puma' className="dropdown-item">Puma</Link></li>
+                                <li><Link to='/Adidas' className="dropdown-item">Adidas</Link></li>
+                                <li><Link to='/Nike' className="dropdown-item">Nike</Link></li>
+                                <li><Link to='/Jordan' className="dropdown-item">Jordan</Link></li>
+                                <li><Link to='Underarmour' className="dropdown-item">Under Armour</Link></li>
+                                <li><Link to='/Puma' className="dropdown-item">Puma</Link></li>
                             </ul>
                         </li>
                         <li className="nav-item">
