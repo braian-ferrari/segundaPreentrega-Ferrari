@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Home from './components/Home/Home';
 import Navbar from './components/navbar/Navbar'; 
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import ItemListContainer from './components/ItemListContainer/ItemlistContainer'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 
 import {

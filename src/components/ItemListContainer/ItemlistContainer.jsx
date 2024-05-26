@@ -6,12 +6,12 @@ import styles from "./ItemListContainer.module.css";
 
 const ItemListContainer = ({ greeting }) => {
   const [productos, setProductos] = useState([]);
-  const { id: marca } = useParams(); // Renombrar id a marca para claridad
+  const { id: marca } = useParams(); 
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("/productos.json"); // Asegúrate de que el archivo JSON esté en la carpeta public
+        const response = await fetch("/productos.json"); 
         const data = await response.json();
 
         if (marca) {
