@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Home from './components/Home/Home';
 import Navbar from './components/navbar/Navbar'; 
-import ItemlistContainer from './components/ItemListContainer/ItemlistContainer';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 
 import {
@@ -18,8 +18,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/:id" element={<ItemlistContainer />} />
-      
+        <Route path="/marca/:id" element={<ItemListContainer greeting="Productos por Marca" />} />
+        <Route path="/detalle/:id" element={<ItemDetailContainer />} />
       </Routes>
     </Router>
   );
