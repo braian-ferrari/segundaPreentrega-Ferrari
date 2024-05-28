@@ -19,6 +19,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/:id" element={<ItemListContainer greeting />} />
         <Route path="/detalle/:id" element={<ItemDetailContainer />} />
+        <Route path="/CalzadoHombre" element={<ItemListContainer />} />
+        <Route path="/CalzadoMujer" element={<ItemListContainer />} />
+
       </Routes>
     </Router>
   );

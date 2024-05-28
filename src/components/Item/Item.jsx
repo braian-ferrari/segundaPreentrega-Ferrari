@@ -10,7 +10,7 @@ const Item = ({ producto }) => {
                 <h5 className="card-title">{producto.nombre}</h5>
                 <p className="card-text"><strong>{producto.precio}</strong></p>
                 <p>{producto.descripcion}</p>
-                <button type="button" className="btn btn-primary">Add to Cart+</button>
+                <button type="button" className="btn btn-info">Add to Cart+</button>
             </div>
         </div>
         </div>

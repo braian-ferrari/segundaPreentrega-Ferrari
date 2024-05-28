@@ -1,5 +1,6 @@
 .Items{
-width: 50%;
+width: 350px;
+height: 0 auto;
 display: flex;
 justify-content: end;
 align-items: end;
