@@ -4,10 +4,11 @@
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     font-family: "Bebas Neue", sans-serif;
     font-style: normal;
     font-size: x-large;
+    overflow-x: hidden;
 
 }
 
@@ -16,7 +17,7 @@
 }
 
 .btn {
-    width: 90px;
+    width: auto;
     height: 50px;
 }
 
@@ -29,7 +30,8 @@ a:hover {
 }
 
 .input {
-    width: 500px;
+    width: 100%; /* Aseguramos que el input sea responsivo */
+    max-width: 500px; /* Máximo ancho para pantallas grandes */
     height: 50px;
 }
 .font{
