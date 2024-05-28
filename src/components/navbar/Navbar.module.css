@@ -13,7 +13,7 @@
 }
 
 .icono {
-   font-size: 30px;
+    font-size: 30px;
 }
 
 .btn {
@@ -30,10 +30,11 @@ a:hover {
 }
 
 .input {
-    width: 100%; /* Aseguramos que el input sea responsivo */
-    max-width: 500px; /* Máximo ancho para pantallas grandes */
+    width: 100%;
+    max-width: 500px;
     height: 50px;
 }
-.font{
+
+.font {
     color: rgb(139, 139, 139);
 }
